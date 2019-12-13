@@ -20,15 +20,7 @@ class UserController {
     return response.json({user});
   }
 
-  /**
-   * Render a form to be used for creating a new user.
-   * GET users/create
-   *
-   * @param {object} ctx
-   * @param {Request} ctx.request
-   * @param {Response} ctx.response
-   * @param {View} ctx.view
-   */
+  
   async create ({ request, response, view }) {
   }
 

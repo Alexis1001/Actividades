@@ -15,7 +15,7 @@ class UserController {
    * @param {Response} ctx.response
    * @param {View} ctx.view
    */
-  async index ({ request, response, view }) {
+  async index ({ response, view }) {
     const user= await User.all();
     return response.json({user});
   }
